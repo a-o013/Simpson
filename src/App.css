@@ -7,6 +7,11 @@
   height: 40vmin;
 }
 
+.one {
+  animation: App-logo-spin infinite 1s linear;
+  height: 10vmin;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
