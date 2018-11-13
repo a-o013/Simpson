@@ -22,4 +22,7 @@ class Lamp extends Component {
   }
 }
 
+
+
+
 export default Lamp;
