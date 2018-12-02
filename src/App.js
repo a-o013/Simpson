@@ -11,6 +11,7 @@ import Histoire from "./History"
 import Navigation from "./Navigation";
 import  GenerateEmployee  from  './GenerateEmployee';
 import  DisplayEmployee  from  './DisplayEmployee';
+import FormEmployee from "./FormEmployee"
 
 const  sampleEmployee = {
   quote: 'Shoplifting is a victimless crime, like punching someone in the dark.',
@@ -45,6 +46,7 @@ class App extends Component {
     const working = this.state.work ? 'one' : 'App-logo';
     return (
       <div className="App">
+      <FormEmployee />
 
       <GenerateEmployee selectEmployee={() =>  this.getEmployee()} />
       <DisplayEmployee  employee={this.state.employee}  />
